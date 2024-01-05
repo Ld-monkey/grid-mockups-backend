@@ -1,5 +1,5 @@
-const UsersController = {
-  getUserInformation: {
+const usersSchema = {
+  getUserOptions: {
     opts: {
       schema: {
         params: {
@@ -23,16 +23,7 @@ const UsersController = {
         },
       },
     },
-    handler: function (request, reply) {
-      reply.send({
-        id: 1,
-        user: 'Georges',
-        email: 'georges@email.com',
-        created_at: '01.12.2024',
-        update: '01.12.2024',
-      });
-    },
   },
 };
 
-export default UsersController;
+export default usersSchema;
