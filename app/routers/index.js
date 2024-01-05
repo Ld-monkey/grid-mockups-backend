@@ -1,10 +1,12 @@
 import UsersController from '../controllers/users/usersController.js';
 
 async function routers(fastify) {
-  /**
-   * User part.
-   */
-  fastify.get('/users/:id', { handler: UsersController.getUserInformation });
+  // Get simple user information.
+  fastify.get(
+    '/users/:userId',
+    UsersController.getUserInformation.opts,
+    UsersController.getUserInformation.handler,
+  );
 }
 
 export default routers;
