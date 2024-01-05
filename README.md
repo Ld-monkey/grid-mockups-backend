@@ -2,7 +2,7 @@
 
 ## **Description**
 
-Le projet **grid mockups** stoque et enregistre une courte vidéo (en format .webm) défilant de haut en bas un site d'internet ou une réalisation personnelle. 
+Le projet **grid mockups** stocke et enregistre une courte vidéo (en format .webm) défilant de haut en bas un site d'internet ou une réalisation personnelle. 
 
 ## 📦 **Installation**
 
