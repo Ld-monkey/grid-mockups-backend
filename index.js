@@ -5,7 +5,7 @@ const fastify = Fastify({
   logger: true,
 });
 
-fastify.register(routers, { prefix: '/v1' });
+fastify.register(routers, { prefix: '/v1/' });
 
 fastify.listen({ port: 3000, host: 'localhost' }, (err, address) => {
   if (err) {
