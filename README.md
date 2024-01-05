@@ -4,6 +4,7 @@
 
 ## **Description**
 
+Le projet **grid mockup** enregistre une courte vidéo (en format .webm) défilant de haut en bas un site d'internet ou une réalisation personnelle. 
 
 ---
 
@@ -15,43 +16,28 @@ Pour installer les dépendances du projet :
 
 ```bash
 npm i
-```
-
-ou
-
-```bash
+# ou avec yarn
 yarn
-``````
+```
 
 ---
 
 ## 🪄 **Usage**
 
-
 Pour lancer l'application backend en mode **développement** :
 
 ```bash
 npm run dev
-```
-
-ou 
-
-```bash
+# ou avec yarn
 yarn dev
 ```
 
 ---
 
-
 Pour lancer l'application backend en mode **production** :
 
 ```bash
 npm run start
-```
-
-ou 
-
-```bash
+# ou avec yarn
 yarn start
 ```
----
