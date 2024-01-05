@@ -4,7 +4,7 @@
 
 ## **Description**
 
-Le projet **grid mockup** enregistre une courte vidéo (en format .webm) défilant de haut en bas un site d'internet ou une réalisation personnelle. 
+Le projet **grid mockups** enregistre une courte vidéo (en format .webm) défilant de haut en bas un site d'internet ou une réalisation personnelle. 
 
 ---
 
