@@ -1,12 +1,8 @@
-<div align="center">
-    <h1>Grid Mockups - Backend</h1>
-</div>
+# Grid Mockups - Backend
 
 ## **Description**
 
-Le projet **grid mockups** enregistre une courte vidéo (en format .webm) défilant de haut en bas un site d'internet ou une réalisation personnelle. 
-
----
+Le projet **grid mockups** stoque et enregistre une courte vidéo (en format .webm) défilant de haut en bas un site d'internet ou une réalisation personnelle. 
 
 ## 📦 **Installation**
 
@@ -20,9 +16,15 @@ npm i
 yarn
 ```
 
----
-
 ## 🪄 **Usage**
+
+Pour lancer l'application backend en mode **production** :
+
+```bash
+npm run start
+# ou avec yarn
+yarn start
+```
 
 Pour lancer l'application backend en mode **développement** :
 
@@ -32,12 +34,5 @@ npm run dev
 yarn dev
 ```
 
----
+## Tester l'API
 
-Pour lancer l'application backend en mode **production** :
-
-```bash
-npm run start
-# ou avec yarn
-yarn start
-```
