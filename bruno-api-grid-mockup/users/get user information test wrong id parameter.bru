@@ -1,0 +1,11 @@
+meta {
+  name: get user information test wrong id parameter
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{baseUrl}}/v1/users/NotAnIntergerInParameter
+  body: none
+  auth: none
+}
