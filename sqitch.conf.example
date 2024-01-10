@@ -2,7 +2,7 @@
 	engine = pg
 	top_dir = data
 	# plan_file = data/sqitch.plan
-# [engine "pg"]
-	# target = db:pg:
+[engine "pg"]
+	target = db:pg://PGUSER:PGPASSWORD@localhost:5432/PGDATABASE
 	# registry = sqitch
 	# client = psql
