@@ -5,3 +5,4 @@
 userschema 2024-01-10T15:07:16Z Monkey <ld@monkey.com> # Add schema for all users
 mockupschema 2024-01-12T18:09:38Z Monkey <ld@monkey.com> # Add the schema for the user mockups.
 technologies 2024-01-12T18:55:47Z Monkey <ld@monkey.com> # Add table for technologies fields
+type_project 2024-01-12T21:21:28Z Monkey <ld@monkey.com> # Add table and join table for the type of the project e.g: front-end or back-end

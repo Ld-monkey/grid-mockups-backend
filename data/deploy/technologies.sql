@@ -20,28 +20,14 @@ CREATE TABLE mockup_technology (
   updated_at timestamptz
 );
 
-INSERT INTO technologies (label, icon, updated_at) 
-VALUES (
-    'javascript',
-    './public/icons/javascript.png',
-    now()
-  ),
-  (
-    'typescript',
-    './public/icons/typescript.png',
-    now()
-  );
+INSERT INTO technologies (label, icon, updated_at)
+VALUES
+    ('javascript', './public/icons/javascript.png', now()),
+    ('typescript', './public/icons/typescript.png', now());
 
 INSERT INTO mockup_technology (id_mockup, id_technology, updated_at)
-VALUES (
-    1,
-    1,
-    now()
-  ),
-  (
-    1,
-    2,
-    now()
-  );
+VALUES
+    (1, 1, now()),
+    (1, 2, now());
 
 COMMIT;
